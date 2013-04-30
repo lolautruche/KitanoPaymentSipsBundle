@@ -12,8 +12,14 @@
             "homepage": "http://www.kitpages.fr"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:lolautruche/KitanoPaymentBundle.git"
+        }
+    ],
     "require": {
-        "kitano/payment-bundle": "~2.0"
+        "kitano/payment-bundle": "*"
     },
     "autoload": {
         "psr-0": { "Kitano\\PaymentSipsBundle": "" }
